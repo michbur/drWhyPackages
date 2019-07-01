@@ -11,3 +11,4 @@ randomForestExplainer
 localModel
 shapper
 breakDown
+auditor
