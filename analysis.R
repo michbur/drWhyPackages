@@ -39,3 +39,5 @@ edges <- mutate(dep_df,
 net <- visNetwork(nodes, edges, height = 1200, width = 1200) %>%
   visEdges(arrows = "from")  %>% 
   visLayout(randomSeed = 1000) 
+
+visSave(net, file = "drwhy.html")
